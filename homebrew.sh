@@ -73,6 +73,15 @@ brew install redis
 echo "Installing JetBrains Toolbox"
 brew install --cask jetbrains-toolbox
 
+# Let's install some testing tools
+
+# Install laztgit (Interactive CLI for git)
+echo "Installing LazyGit"
+brew install lazygit
+
+# Installing Postmab
+echo "Installing postman"
+
 # Now reload zsh
 echo "Now reloading zsh..."
 zsh
