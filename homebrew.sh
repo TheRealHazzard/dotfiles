@@ -81,7 +81,7 @@ brew install lazygit
 
 # Installing Postman
 echo "Installing postman"
-brew install postman
+brew install --cask postman
 
 # Now reload zsh
 echo "Now reloading zsh..."
