@@ -30,7 +30,7 @@ brew install --cask visual-studio-code
 # Now we will add autocompletion to our ZSH (Inspired from FISH)
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-echo plugins=(zsh-autosuggestions) >> ~/.zshrc
+echo plugins=\(zsh-autosuggestions\) >> ~/.zshrc
 
 # Let's also add syntax highlighting to our ZSH
 
@@ -85,14 +85,3 @@ echo "Installing postman"
 # Now reload zsh
 echo "Now reloading zsh..."
 zsh
-
-
-
-
-
-
-
-
-
-
-
