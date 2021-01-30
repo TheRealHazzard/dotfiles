@@ -79,8 +79,9 @@ brew install --cask jetbrains-toolbox
 echo "Installing LazyGit"
 brew install lazygit
 
-# Installing Postmab
+# Installing Postman
 echo "Installing postman"
+brew install postman
 
 # Now reload zsh
 echo "Now reloading zsh..."
