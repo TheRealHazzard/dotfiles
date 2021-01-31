@@ -83,6 +83,10 @@ brew install lazygit
 echo "Installing postman"
 brew install --cask postman
 
+# Installing Robo 3T (GUI+Console for MongoDB)
+echo "Installing Robo 3T"
+brew install --cask robo-3t
+
 # Now reload zsh
 echo "Now reloading zsh..."
 zsh
