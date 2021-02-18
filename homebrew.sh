@@ -69,6 +69,19 @@ brew install mongodb-community
 echo "Installing RedisDB"
 brew install redis
 
+# Installing Elasticsearch and Kibana
+
+# -> Elasticsearch
+echo "Now installing elasticsearch"
+brew tap elastic/tap
+brew install elastic/tap/elasticsearch-full
+
+# -> Kibana
+echo "Now installing Kibana"
+brew tap elastic/tap
+brew install elastic/tap/kibana-full
+
+
 # Let's wrap up by installing JetBrains Toolbox
 echo "Installing JetBrains Toolbox"
 brew install --cask jetbrains-toolbox
