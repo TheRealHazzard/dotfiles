@@ -100,6 +100,12 @@ brew install --cask postman
 echo "Installing Robo 3T"
 brew install --cask robo-3t
 
+# Installing some fonts
+echo "Installing monospaced fonts"
+brew tap homebrew/cask-fonts
+echo "Now installing CascadiaCode"
+brew install font-cascadia-code
+
 # Now reload zsh
 echo "Now reloading zsh..."
 zsh
