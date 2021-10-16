@@ -13,7 +13,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 # Set ZSH current theme to powerlevel10k or use my .zshrc
 
-echo ZSH_THEME="powerlevel10k/powerlevel10k" >> ~/.zshrc.
+echo ZSH_THEME="powerlevel10k/powerlevel10k" >> ~/.zshrc
 
 # Let's now install Homebrew - package manager for macOS. (Don't worry, macOS comes pre-installed with ruby and python )
 echo "Installing Homebrew..."
