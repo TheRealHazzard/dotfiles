@@ -17,7 +17,7 @@ You can edit each individual one you want or if you prefer my default settings t
 4. Simply run `sh homebrew.sh`
 5. Viola! everything should be in place. If you face any difficulty, please raise an issue :).
 
-*Note: Both of these files reside in home directory i.e. `~/`*
+*Note: All of these `.dotfiles` reside in home directory i.e. `~/`*
 
 ## New machine setup script
 
