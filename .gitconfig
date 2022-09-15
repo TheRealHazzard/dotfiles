@@ -1,0 +1,21 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = sudo-nan0-RaySK
+	email = sakshamsethi47@gmail.com
+[pull]
+	rebase = false
+[core]
+	hooksPath = /Users/sakshamsethi/.config/git/hooks/
+	pager = delta
+[credential]
+	helper = store
+[interactive]
+	diffFilter = 	delta --color-only
+[delta]
+	navigate = true
+	line-numbers = true
+[merge]
+	conflictstyle = diff3
+[diff]
+	colorMoved = default
