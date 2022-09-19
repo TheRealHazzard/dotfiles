@@ -6,6 +6,7 @@ xcode-select —-install
 # Install oh-my-zsh
 echo "(Step - 2/9) Setting-up ZSH!"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+exit
 
 # Let's now install Homebrew - package manager for macOS. (Don't worry, macOS comes pre-installed with ruby and python )
 echo "(Step - 3/9) Installing Homebrew..."
@@ -21,7 +22,7 @@ brew bundle install --file ./Brewfile
 
 # Override current ~/.zshrc with our custom ~/.zshrc
 echo "(Step - 6/9) Override current ~/.zshrc with our custom ~/.zshrc..."
-cat ./zshrc > ~/.zshrc
+cat ./.zshrc > ~/.zshrc
 
 # Overriding .gitconfig
 echo "(Step - 7/9) Overriding .gitconfig..."
